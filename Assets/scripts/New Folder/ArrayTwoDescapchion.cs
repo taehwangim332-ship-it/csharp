@@ -14,8 +14,24 @@ public class ArrayTwoDescapchion : MonoBehaviour
 
         //배열의 길이
         Debug.Log($"배열의 길기: {intArray.Length}");
-            
 
+        //[3] 배열의 요소를 출력 
+        int[] playerScores = { 100, 250, 400, 550, 700 };
+
+        // for문을 사용하여 배열의 모든 요소를 출력
+        for (int i = 0; i < playerScores.Length; i++)
+        {
+            Debug.Log("플레이어 " + (i + 1) + "의 점수: " + playerScores[i]);
+            int[] numbers = { 1, 2, 3 };
+
+            int index = 0;
+
+
+            Debug.Log(numbers[3]);
+
+
+
+        }
 
     }
 
